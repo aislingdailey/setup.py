@@ -55,5 +55,5 @@ setup(
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
-    license='MIT'
+    license=about['__license__']
 )
